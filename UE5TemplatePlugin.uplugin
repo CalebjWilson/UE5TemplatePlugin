@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UE5TemplatePlugin",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UE5TemplatePlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+				{
+			"Name": "UE5TemplateEditorPlugin",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault"
+		},
+				{
+			"Name": "UE5TemplateK2Plugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
